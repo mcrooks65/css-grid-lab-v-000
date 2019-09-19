@@ -7,13 +7,13 @@ body {
 .grid-container {
   height: 100vh;
   width: 100vw;
-  /* your properties here */
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
 }
 
 .grid-item {
   background-color: grey;
   border: 1px solid black;
-  display: grid;
 }
 
 /* add the .bigItem class */
